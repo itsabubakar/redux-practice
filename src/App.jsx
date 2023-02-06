@@ -1,13 +1,13 @@
-import PostList from "./features/posts/PostList"
-import AddPostForm from './features/posts/AddPostForm'
+import AddPostForm from "./features/post/AddPostForm"
+import PostList from "./features/post/PostList"
 
-function App() {
-  return (
-    <main className="App">
-      <AddPostForm />
-      <PostList />
-    </main>
-  )
+
+const App = () => {
+    return (
+        <main className="App">
+            <AddPostForm />
+            <PostList />
+        </main>
+    )
 }
-
 export default App
